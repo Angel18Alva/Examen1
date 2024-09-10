@@ -1,0 +1,131 @@
+main {
+    max-width: auto;
+    margin: auto;
+}
+main header {
+    background-color: black;
+    padding: 100;
+    display: flex;
+    height: 60px;
+    margin-left: auto;
+}
+
+header img {
+    width: 60px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.menuantes {
+    color: white;
+    font-size: 11px;
+    list-style-type: none;
+    padding-top: 0px ;
+}
+
+
+.menuCabecera{
+    display: flex;
+    padding-top: 10px;
+    padding-right: 10px;
+    
+}
+
+.menuCabecera li {
+    list-style-type: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-family: DINPro, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+}
+
+.menuCabecera li:nth-of-type(5) {
+    color:orangered;
+}
+
+.menuCabecera li:hover {
+    color: black;
+}
+
+
+header input {
+    width: 500px;
+    margin-top: 14px;
+    max-height: 26px;
+    margin-left: 20px;
+}
+
+nav {
+    background-color: white;
+}
+nav ol {
+    display: flex;
+    text-transform: uppercase;
+    font-family: DINPro, sans-serif;
+    list-style-type: none;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+nav ol li {
+    margin-right: 80px;
+    font-weight: 200;
+    color: gray;
+}
+
+.jpgprinci {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+h2 {
+    margin-top: 0px;
+    color: #dddddd;
+    font-size: 10px;
+    padding-top: 0px;
+    margin-left: 70px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    color: rgb(44, 35, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+    margin-top:10px;
+    width: 450px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 15px;
+    margin-left: 70px;
+}
+
+button {
+    margin-left: 70px;
+    background-color: rgb(58, 103, 201);
+    border-color: white;
+    color: white;
+    outline: none;
+    box-shadow: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+}
+
+.abajo {
+    background-color: gray;
+}
+
+abajo h2 {
+    font-size: 10px;
+}
